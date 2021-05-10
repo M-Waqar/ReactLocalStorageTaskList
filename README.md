@@ -1,3 +1,11 @@
+# Get From Local Storage
+
+const tasks = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY));
+
+# Set in Local Storage
+
+localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(taskList));
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
